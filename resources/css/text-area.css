@@ -1,0 +1,28 @@
+.description-container {
+    /* border: solid 1px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.description-container textarea {
+    border-radius: 12px;
+    padding: 12px;
+}
+.description-container textarea:focus {
+    outline: none;
+}
+.description-container span {
+    padding: 8px 0 4px 0;
+    font-size: 1.1rem;
+    font-family: "Amaranth", sans-serif;
+}
+.description-container textarea {
+    /* border: solid 1px; */
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: justify;
+}
+.areaText {
+    height: 45vh;
+}

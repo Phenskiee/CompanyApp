@@ -1,0 +1,95 @@
+.sidebar-container {
+    /* border: solid 1px; */
+    background-color: #050505;
+    box-shadow: 0 0 16px rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 12px;
+    width: 20%;
+    height: 100vh;
+}
+.sidebar-header {
+    /* border: solid 1px; */
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Lobster", sans-serif;
+}
+.personal-info {
+    /* border: solid 1px; */
+    padding: 4px;
+    margin-top: 12px;
+}
+.img-container {
+    /* border: solid 1px; */
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 40%;
+    height: auto;
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 50%;
+}
+.name-position {
+    /* border: solid 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+.name {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+.pos {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+.personal-btn {
+    /* border: solid 1px; */
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+.personal-btn span {
+    /* border: solid 1px; */
+    background-color: #003566;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.nav-container {
+    /* border: solid 1px; */
+    padding: 8px;
+}
+nav ul li {
+    /* border: solid 1px white; */
+    list-style: none;
+    padding: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+}
+nav ul li i {
+    /* border: solid 1px white; */
+    text-align: center;
+    width: 20px;
+}
+nav ul li:hover {
+    background-color: #003566;
+}
+.active {
+    background-color: #001D3D;
+}

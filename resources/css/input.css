@@ -1,0 +1,22 @@
+.input-container {
+    /* border: solid 1px; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input-container span {
+    /* border: solid 1px; */
+    font-family: "Amaranth", sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.input-container input {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 12px;
+    /* background: blue; */
+}

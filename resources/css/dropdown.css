@@ -1,0 +1,29 @@
+.dropdown {
+    /* border: solid 1px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+    font-family: "Amaranth", sans-serif;
+}
+select {
+    /* border: solid 1px red; */
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+select:focus {
+    outline: none;
+}
+select:disabled {
+    font-weight: 600;
+    color: #000000;
+    border: solid 1px;
+    border-color: #333333;
+}

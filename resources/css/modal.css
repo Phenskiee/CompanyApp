@@ -1,0 +1,48 @@
+.modal-container {
+    /* border: solid 1px yellow; */
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content {
+    /* border: solid 1px red; */
+    background-color: #fffcfb;
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 0.8);
+    width: 60%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 8px;
+}
+.modal-header {
+    /* border: solid 1px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.modal-header i {
+    cursor: pointer;
+}
+.modal-input-container {
+    /* border: solid 1px red; */
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+.view-content {
+    border: solid 1px blue;
+    height: 97vh;
+}

@@ -1,0 +1,26 @@
+.company-search-add-dropdown {
+    /* border: solid 1px; */
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    height: 10vh;
+}
+.table-container {
+    /* border: solid 1px; */
+    height: calc(100vh - 20vh);
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.dropdowns {
+    /* border: solid 1px; */
+    width: 30%;
+    padding: 4px;
+}
+.search {
+    /* border: solid 1px red; */
+    width: 32.5%;
+}
+/* .add-modal {
+    display: none;
+} */
