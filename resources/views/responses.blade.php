@@ -23,7 +23,7 @@
     <x-input type="hidden" name="id" />
     <x-input
         label="Application Date"
-        id="applicationDate"
+        id="responseApplicationDate"
         name="application_date"
         :readonly="true"
     />
@@ -58,7 +58,7 @@
     <x-modal-input>
         <x-input
             label="Email"
-            id="email"
+            id="responseEmail"
             name="email"
             type="email"
             placeholder="Enter Email"
@@ -73,7 +73,7 @@
         />
         <x-input
             label="Location"
-            id="location"
+            id="responseLocation"
             name="location"
             :readonly="true"
         />
@@ -140,12 +140,6 @@
             placeholder="Select Time"
             :readonly="true"
         />
-        {{-- <x-dropdown
-            label="Status after Interview"
-            id="statusInterview"
-            name="status_after_interview_id"
-            route="{{ route('dropdown.list') }}"
-        /> --}}
     </x-modal-input>
 
     <x-text-area
@@ -157,9 +151,7 @@
 
 </x-modal>
 
-{{-- @include('scripts.modal-script') --}}
 @include('scripts.search-scripts')
-{{-- @include('scripts.crud-scripts') --}}
 
 @push('js')
 <script>
