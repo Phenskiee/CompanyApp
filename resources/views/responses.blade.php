@@ -21,29 +21,6 @@
 
 <x-modal modalClass="response-edit-modal">
     <x-input type="hidden" name="id" />
-    <x-modal-input>
-        {{-- <x-input
-            label="Email"
-            id="email"
-            name="email"
-            type="email"
-            placeholder="Enter Email"
-            :readonly="true"
-        />
-        <x-input 
-            label="Position" 
-            id="role"
-            name="position"
-            placeholder="Enter Position/Role" 
-            :readonly="true"
-        />
-        <x-input
-            label="Location"
-            id="location"
-            name="location"
-            :readonly="true"
-        /> --}}
-    </x-modal-input>
     <x-input
         label="Application Date"
         id="applicationDate"
@@ -70,73 +47,6 @@
         name="time_of_interview"
         placeholder="Select Time"
     />
-
-    {{-- <x-modal-input>
-        <x-input 
-            label="Salary"
-            id="salary"
-            name="salary"
-            placeholder="Enter salary"
-            :readonly="true"
-        />
-        <x-input 
-            label="Links" 
-            id="links"
-            name="company_link"
-            placeholder="Paste Link"
-            :readonly="true" 
-        />
-        <x-dropdown
-            label="Platform"
-            placeholder="Select Platform"
-            name="platform_id"
-            route="{{ route('dropdown.platform') }}"
-            :disabled="true"
-        />
-        <x-dropdown
-            label="Setup"
-            placeholder="Select Setup"
-            name="setup_id"
-            route="{{ route('dropdown.setup') }}"
-            :disabled="true"
-        />
-    </x-modal-input> --}}
-
-    {{-- <x-modal-input>
-        <x-dropdown
-            label="Status"
-            id="dropdown"
-            name="status_id"
-            route="{{ route('dropdown.list') }}"
-        />
-        <x-input 
-            label="Date of Interview" 
-            type="date"
-            id="dateInterview"
-            name="date_of_interview"
-            placeholder="Select Date" 
-        />
-        <x-input 
-            label="Time of Interview"
-            type="time"
-            id="timeInterview"
-            name="time_of_interview"
-            placeholder="Select Time"
-        />
-        <x-dropdown
-            label="Status after Interview"
-            id="statusInterview"
-            name="status_after_interview_id"
-            route="{{ route('dropdown.list') }}"
-        />
-    </x-modal-input> --}}
-
-    {{-- <x-text-area
-        label="Job Description"
-        name="job_description"
-        :readonly="true"
-    /> --}}
-
 </x-modal>
 {{-- VIEW --}}
 <x-modal 
