@@ -19,7 +19,7 @@ class AccountRepository
 
     public function addAccount(Request $request) {
         $query = $request->get('search', '');
-        $accounts = $this->filterAccounts($query)->orderBy('id')->paginate(8);
+        $accounts = $this->filterAccounts($query)->orderBy('id', 'desc')->paginate(8);
 
         $headers = [
             'Company',
